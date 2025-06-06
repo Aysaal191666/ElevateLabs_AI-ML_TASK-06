@@ -1,12 +1,12 @@
 # ElevateLabs_AI-ML_TASK-06
 K-Nearest Neighbors (KNN) Classification 
-# 🧠 K-Nearest Neighbors (KNN) Classification - Iris Dataset 🌸
+#  K-Nearest Neighbors (KNN) Classification - Iris Dataset 
 
 This project implements a K-Nearest Neighbors (KNN) classifier to classify species in the classic **Iris dataset** using **Scikit-learn**, **Pandas**, and **Matplotlib**.
 
 ---
 
-## 📌 Objective
+## Objective
 
 - Understand **Instance-Based Learning (IBL)**
 - Explore the effect of **K selection** on model performance
@@ -15,7 +15,7 @@ This project implements a K-Nearest Neighbors (KNN) classifier to classify speci
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: [Iris Dataset on Kaggle](https://www.kaggle.com/datasets/uciml/iris)
 - Samples: 150
@@ -24,7 +24,7 @@ This project implements a K-Nearest Neighbors (KNN) classifier to classify speci
 
 ---
 
-## 🧪 Tools & Libraries
+## Tools & Libraries
 
 - Python
 - Scikit-learn
@@ -34,7 +34,7 @@ This project implements a K-Nearest Neighbors (KNN) classifier to classify speci
 
 ---
 
-## 🚀 Steps Performed
+## Steps Performed
 
 1. **Data Loading** and preprocessing
 2. **Feature Normalization** using StandardScaler
@@ -46,7 +46,7 @@ This project implements a K-Nearest Neighbors (KNN) classifier to classify speci
 
 ---
 
-## 🔍 Model Performance
+## Model Performance
 
 | K Value | Accuracy |
 |---------|----------|
@@ -57,11 +57,11 @@ This project implements a K-Nearest Neighbors (KNN) classifier to classify speci
 | 9       | 100%     |
 | 11      | 100%     |
 
-✅ **Best K**: `1` (based on test set accuracy)
+**Best K**: `1` (based on test set accuracy)
 
 ---
 
-## ⚠️ Why 100% Accuracy is Acceptable Here
+## Why 100% Accuracy is Acceptable Here
 
 Although 100% accuracy might seem unusually high, it is **expected** in this case due to the nature of the **Iris dataset**:
 
@@ -74,13 +74,13 @@ Thus, achieving 100% accuracy **does not indicate overfitting**, but reflects th
 
 ---
 
-## 📈 Visual Results
+## Visual Results
 
-### ✅ Confusion Matrix
+###  Confusion Matrix
 
 ![KNN Confusion Matrix](knn_confusion_matrix.png)
 
-### 🌐 Decision Boundary
+###  Decision Boundary
 
 > (Using only Sepal length and Sepal width for 2D plotting)
 
@@ -88,7 +88,7 @@ Thus, achieving 100% accuracy **does not indicate overfitting**, but reflects th
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 - KNN is a simple yet effective **instance-based learning** method.
 - Normalization is crucial for **distance-based algorithms**.
@@ -98,7 +98,7 @@ Thus, achieving 100% accuracy **does not indicate overfitting**, but reflects th
 
 ---
 
-## 🧪 Ideas for Further Exploration
+## Ideas for Further Exploration
 
 If you'd like to go beyond perfect accuracy:
 
